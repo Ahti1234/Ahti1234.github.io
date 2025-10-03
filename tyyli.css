@@ -156,12 +156,12 @@ footer{
 /*mobiilikoko*/
 @media (max-width: 600px) {
     #etusivu {
-        background-image: url(kuvat/paakuva-kahvila-mobiili.jpg);
+        background-image: url(golf.jpg);
         background-size: cover;
         height: 400px;
     }
     #alisivut {
-        background-image: url(kuvat/tausta-mobiili.jpg);
+        background-image: url(golf.jpg);
     }
 
     nav a { 
@@ -232,12 +232,12 @@ footer{
 /*tablettikoko*/
 @media screen and (min-width: 600px) {
     #etusivu {
-        background-image: url(kuvat/paakuva-kahvila.jpg);
+        background-image: url(golf.jpg);
         background-size: cover;
         height: 600px;
     }
     #alisivut {
-        background-image: url(kuvat/tausta-mobiili.jpg);
+        background-image: url(golf.jpg);
     }
     nav a { 
         font-size: 15px;
