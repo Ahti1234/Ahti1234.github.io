@@ -79,7 +79,7 @@ figure {
     max-width: 400px;
 }
 figcaption {
-    background-color: darkslategray;
+    background-color: #008854;
     color: white;
     font-style: italic;
     padding: 8px;
@@ -288,12 +288,6 @@ footer{
             'g3'
             'g2';
     }
-    #musamme {
-        grid-template-areas:
-            'g1'
-            'g3'
-            'g2';
-    }
     .grid-yritys {
         grid-template-areas:
             'g1-h1'
@@ -315,7 +309,9 @@ footer{
         height: 950px;
     }
     #alisivut {
-        background-image: url(kuvat/tausta.jpg);
+        background-image: url(golf4.jpg);
+        background-size: cover;
+        height: 950px
     }
     nav a { 
         font-size: 20px;
