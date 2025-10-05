@@ -170,6 +170,8 @@ footer{
     }
     #alisivut {
         background-image: url(golf4.jpg);
+        background-size: cover;
+        height: 400px;
     }
 
     nav a { 
