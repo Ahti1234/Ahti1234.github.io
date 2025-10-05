@@ -197,18 +197,18 @@ footer{
         margin: 3% 10% 3% 10%;
         flex-direction: column;
     }
-    h1 {
+    h1 {font-family: otsikko, "Bahnschrift";
         font-size: 25px;
         margin-bottom: 1px;
     }
-    h2{
+    h2{font-family: otsikko, "Bahnschrift";
         font-size: 20px;
     }
-    h3 {
+    h3 {font-family: otsikko, "Bahnschrift";
         font-size: 18px;
     }
     }
-    footer{
+    footer{font-family: otsikko, "Bahnschrift";
         flex-direction: column;
         text-align: center;
     }
