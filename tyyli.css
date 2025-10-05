@@ -36,10 +36,11 @@ h2 {
     font-family:  "Verdana";
     font-size: 20px;
     color: #008854;
+    text-shadow: 2px 2px #013220;
 }
 h3 {font-family: "Verdana";
     font-size: 20px;
-    color: white;
+    color: #f2f2f2;
     text-shadow: 2px 2px black;
 
 }
