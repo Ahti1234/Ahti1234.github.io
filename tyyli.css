@@ -25,7 +25,7 @@ header{
     src: url(fontti/FredokaOne-Regular.ttf);
 }
 h1 {
-    font-family: otsikko, "Bahnschrift";
+    font-family:  "Bahnschrift";
     font-size: 35px;
     color: #008854;
     text-shadow: 4px 4px #013220;
@@ -33,11 +33,11 @@ h1 {
     padding-top: 30px;
 }
 h2 {
-    font-family: otsikko, "Bahnschrift";
+    font-family:  "Bahnschrift";
     font-size: 20px;
     color: #008854;
 }
-h3 {font-family: otsikko, "Bahnschrift";
+h3 {font-family: "Bahnschrift";
     font-size: 20px;
     color: white;
     text-shadow: 2px 2px black;
@@ -138,7 +138,7 @@ th{
 
 /*alatunniste*/
 footer{
-    font-family: otsikko, "Bahnschrift";
+    font-family: "Bahnschrift";
     font-size: 18px;
     color: #013220 ;
     background-color: #008854;
@@ -182,7 +182,7 @@ footer{
         margin:3px 5px;
     }
     #slogan {
-        font-family: otsikko, "Bahnschrift";
+        font-family: "Bahnschrift";
         font-size: 30px;
         padding-top: 1px;
         padding-bottom: 5px;
@@ -198,18 +198,18 @@ footer{
         margin: 3% 10% 3% 10%;
         flex-direction: column;
     }
-    h1 {font-family: otsikko, "Bahnschrift";
+    h1 {font-family: "Bahnschrift";
         font-size: 25px;
         margin-bottom: 5px;
     }
-    h2{font-family: otsikko, "Bahnschrift";
+    h2{font-family: "Bahnschrift";
         font-size: 20px;
     }
-    h3 {font-family: otsikko, "Bahnschrift";
+    h3 {font-family: "Bahnschrift";
         font-size: 18px;
     }
     }
-    footer{font-family: otsikko, "Bahnschrift";
+    footer{font-family: "Bahnschrift";
         flex-direction: column;
         text-align: center;
     }
