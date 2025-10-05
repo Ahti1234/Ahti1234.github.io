@@ -32,12 +32,17 @@ h1 {
     text-align: center;
     padding-top: 30px;
 }
-h2, h3 {
+h2 {
     font-family: otsikko, "Bahnschrift";
     font-size: 20px;
     color: #008854;
 }
+h3 {font-family: otsikko, "Bahnschrift";
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px black;
 
+}
 .esittely {
     padding-left: 20px; 
 }
