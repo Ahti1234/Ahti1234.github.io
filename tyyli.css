@@ -49,7 +49,7 @@ h3 {font-family: otsikko, "Bahnschrift";
 
 /*päävalikko*/
 nav a {
-    background: #083201;
+    background: #013220;
     font-family: otsikko, "Bahnschrift";
     color:#008854;
     text-decoration: none;
@@ -169,7 +169,7 @@ footer{
         height: 600px;
     }
     #alisivut {
-        background-image: url(golf4.jpg);
+        background-image: url(golf10.jpg);
         background-size: cover;
         height: 400px;
     }
@@ -221,7 +221,7 @@ footer{
         height: 600px;
     }
     #alisivut {
-        background-image: url(golf.jpg);
+        background-image: url(golf10.jpg);
     }
     nav a { 
         font-size: 15px;
@@ -271,7 +271,7 @@ footer{
         height: 950px;
     }
     #alisivut {
-        background-image: url(golf4.jpg);
+        background-image: url(golf10.jpg);
         background-size: cover;
         height: 950px
     }
