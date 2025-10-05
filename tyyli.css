@@ -2,7 +2,7 @@
 body {
     color: #008854;
     background-color: rgb(255, 235, 205, 0.305);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, Bahnschrift;
     font-size: 16px;
     margin: 0; /*selain luo automaattisesti pienen marginaalin*/
 }
@@ -25,16 +25,19 @@ header{
     src: url(fontti/FredokaOne-Regular.ttf);
 }
 h1 {
-    font-family: otsikko, "sans serif";
+    font-family: otsikko, "Bahnschrift";
     font-size: 35px;
-    color: whitesmoke;
-    text-shadow: 4px 4px black;
+    color: #008854;
+    text-shadow: 4px 4px #013220;
     text-align: center;
     padding-top: 30px;
 }
 h2, h3 {
-    font-family: otsikko, "sans serif";
+    font-family: otsikko, "Bahnschrift";
+    font-size: 20px;
+    color: #008854;
 }
+
 .esittely {
     padding-left: 20px; 
 }
@@ -42,7 +45,7 @@ h2, h3 {
 /*päävalikko*/
 nav a {
     background: #083201;
-    font-family: otsikko, "sans serif";
+    font-family: otsikko, "Bahnschrift";
     color:#008854;
     text-decoration: none;
     display: inline-block;
