@@ -164,7 +164,7 @@ footer{
 /*kännykkä*/
 @media (max-width: 600px) {
     #etusivu {
-        background-image: url(golf.jpg);
+        background-image: url(golf2.jpg);
         background-size: cover;
         height: 600px;
     }
@@ -216,7 +216,7 @@ footer{
 /*pc*/
 @media screen and (min-width: 1200px) {
     #etusivu {
-        background-image: url(golf.jpg);
+        background-image: url(golf2.jpg);
         background-size: cover;
         height: 950px;
     }
