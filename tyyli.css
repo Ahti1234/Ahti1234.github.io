@@ -183,7 +183,8 @@ footer{
     }
     #slogan {
         font-size: 30px;
-        padding: 20px;
+        padding-top: 1px;
+        padding: 1px;
     }
     .toimintakehote {
         font-size: 18px;
@@ -230,7 +231,7 @@ footer{
     }
     #slogan {
         font-size: 40px;
-        padding-top: 100px;
+        padding-top: 1px;
         padding-bottom: 20px;
         padding-left: 50px;
         padding-right: 50px;
