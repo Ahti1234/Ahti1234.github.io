@@ -2,7 +2,7 @@
 body {
     color: #008854;
     background-color: #f2f2f2;
-    font-family: Bahnschrift;
+    font-family: Verdana;
     font-size: 16px;
     margin: 0; 
 }
@@ -25,7 +25,7 @@ header{
     src: url(fontti/FredokaOne-Regular.ttf);
 }
 h1 {
-    font-family:  "Bahnschrift";
+    font-family:  "Verdana";
     font-size: 35px;
     color: #008854;
     text-shadow: 4px 4px #013220;
@@ -33,11 +33,11 @@ h1 {
     padding-top: 30px;
 }
 h2 {
-    font-family:  "Bahnschrift";
+    font-family:  "Verdana";
     font-size: 20px;
     color: #008854;
 }
-h3 {font-family: "Bahnschrift";
+h3 {font-family: "Verdana";
     font-size: 20px;
     color: white;
     text-shadow: 2px 2px black;
@@ -50,7 +50,7 @@ h3 {font-family: "Bahnschrift";
 /*päävalikko*/
 nav a {
     background: #013220;
-    font-family: otsikko, "Bahnschrift";
+    font-family: otsikko, "Verdana";
     color:#008854;
     text-decoration: none;
     display: inline-block;
@@ -69,7 +69,7 @@ nav a:hover {
     border: 2px solid #013220;
     border-radius: 10px;
     background-color: #008854;
-    font-family: otsikko, "Bahnschrift";
+    font-family: otsikko, "Verdana";
     color: #013220;
     padding: 16px 32px;
     text-align: center;
@@ -138,7 +138,7 @@ th{
 
 /*alatunniste*/
 footer{
-    font-family: "Bahnschrift";
+    font-family: "Verdana";
     font-size: 18px;
     color: #013220 ;
     background-color: #008854;
@@ -197,18 +197,18 @@ footer{
         margin: 3% 10% 3% 10%;
         flex-direction: column;
     }
-    h1 {font-family: "Bahnschrift";
+    h1 {
         font-size: 25px;
         margin-bottom: 5px;
     }
-    h2{font-family: "Bahnschrift";
+    h2{
         font-size: 20px;
     }
-    h3 {font-family: "Bahnschrift";
+    h3 {
         font-size: 18px;
     }
     }
-    footer{font-family: "Bahnschrift";
+    footer{
         flex-direction: column;
         text-align: center;
     }
