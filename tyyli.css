@@ -205,39 +205,11 @@ footer{
     h3 {
         font-size: 18px;
     }
-    .esittely {
-        font-size: 18px;  
-    }
-    #paasivu {
-        grid-template-areas:
-            'g1'
-            'g3'
-            'g2';
-    }
-    #kahvimme {
-        grid-template-areas:
-            'g1'
-            'g3'
-            'g2';
-    }
-    #musamme {
-        grid-template-areas:
-            'g1'
-            'g3'
-            'g2';
-    }
-    .grid-yritys {
-        grid-template-areas:
-            'g1-h1'
-            'g2-hk1'
-            'g3-h2'
-            'g4-hk2';
     }
     footer{
         flex-direction: column;
         text-align: center;
     }
-}
 
 /*tablettikoko*/
 @media screen and (min-width: 600px) {
@@ -273,39 +245,17 @@ footer{
         margin: 3% 10% 3% 10%;
         flex-direction: column;
     }
-    h1 {
+    h1 {font-family: otsikko, "Bahnschrift";
         font-size: 30px;
         margin-bottom: 50px;
     }
-    h2{
+    h2{font-family: otsikko, "Bahnschrift";
         font-size: 25px;
     }
-    h3 {
+    h3 {font-family: otsikko, "Bahnschrift";
         font-size: 20px;
     }
-    .esittely {
-        font-size: 20px;  
-    }
-    #paasivu {
-        grid-template-areas:
-            'g1'
-            'g3'
-            'g2';
-    }
-    #kahvimme {
-        grid-template-areas:
-            'g1'
-            'g3'
-            'g2';
-    }
-    .grid-yritys {
-        grid-template-areas:
-            'g1-h1'
-            'g2-hk1'
-            'g3-h2'
-            'g4-hk2';
-    }
-    footer{
+    footer{font-family: otsikko, "Bahnschrift";
         flex-direction: column;
         text-align: center;
     }
@@ -333,7 +283,7 @@ footer{
     
     #slogan {
         font-size: 65px;
-        padding-top: 150px;
+        padding-top: 1px;
         padding-bottom: 20px;
         padding-left: 200px;
         padding-right: 200px;
@@ -368,30 +318,6 @@ footer{
     .esittely {
         font-size: 25px;  
     }
-
-    #paasivu {
-        grid-template-areas:
-            'g1 g1 g3'
-            'g2 g2 g3';
-        margin-bottom: 100px;
-    }
-    #kahvimme {
-        grid-template-areas:
-            'g3 g1 g1'
-            'g3 g2 g2';
-        margin-bottom: 50px;
-    }
-    #musamme {
-        grid-template-areas:
-            'g1 g3 g2';
-        margin-bottom: 50px;
-    }
-    .grid-yritys {
-        grid-template-areas:
-            'g1-h1 g1-h1 g2-hk1'
-            'g4-hk2 g3-h2 g3-h2';
-    }
-
     footer{
         flex-direction: row;
         text-align: left;
