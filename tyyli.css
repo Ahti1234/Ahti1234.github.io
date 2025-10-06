@@ -36,7 +36,7 @@ h2 {
     font-family:  "Verdana";
     font-size: 20px;
     color: #008854;
-    
+    text-shadow: 2px 2px #013220;
 }
 h3 {font-family: "Verdana";
     font-size: 20px;
@@ -100,29 +100,6 @@ figcaption {
     width: 100%;
 }
 
-/*pääsivun sisällön asettelu*/
-.grid-teksti1 { grid-area: g1; }
-.grid-teksti2 { grid-area: g2; }
-.grid-kuva { grid-area: g3; }
-
-.grid-container {
-    display: grid;
-    gap: 20px;
-    padding: 20px;
-}
-
-/*yritys-sivun sisällön asettelu*/
-.grid-henkilo1 { grid-area: g1-h1; }
-.grid-henkilo1-kuva { grid-area: g2-hk1; }
-.grid-henkilo2 { grid-area: g3-h2; }
-.grid-henkilo2-kuva { grid-area: g4-hk2; }
-
-.grid-yritys {
-    display: grid;
-    gap: 20px;
-    padding: 20px;
-}
-
 table {
     text-align: left;
     padding-top: 20px;
@@ -167,7 +144,7 @@ footer{
     #etusivu {
         background-image: url(golf2.jpg);
         background-size: cover;
-        height: 600px;
+        height: 400px;
     }
     #alisivut {
         background-image: url(golf10.jpg);
@@ -268,9 +245,7 @@ footer{
     h3 {
         font-size: 25px;
     }
-    .esittely {
-        font-size: 25px;  
-    }
+  
     footer{
         flex-direction: row;
         text-align: left;
